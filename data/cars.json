@@ -1,0 +1,26 @@
+{
+  "205_gti": {
+    "name": "Peugeot 205 GTI",
+    "rarity": "Commun",
+    "price": 500,
+    "appreciation": 0.01
+  },
+  "mustang_67": {
+    "name": "Ford Mustang 1967",
+    "rarity": "Rare",
+    "price": 2000,
+    "appreciation": 0.02
+  },
+  "f40": {
+    "name": "Ferrari F40",
+    "rarity": "Légendaire",
+    "price": 8000,
+    "appreciation": 0.03
+  },
+  "eb110": {
+    "name": "Bugatti EB110",
+    "rarity": "Mythique",
+    "price": 15000,
+    "appreciation": 0.04
+  }
+}
