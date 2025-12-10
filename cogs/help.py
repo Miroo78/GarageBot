@@ -28,7 +28,7 @@ class Help(commands.Cog):
             name="🏎️ **Garage**",
             value=(
                 "**/garage** — Affiche ta collection de voitures\n"
-                "**/carinfo** — Infos détaillées d’une voiture (si tu veux l'ajouter plus tard)\n"
+                "**/carinfo** — Infos détaillées d’une voiture \n"
             ),
             inline=False
         )
