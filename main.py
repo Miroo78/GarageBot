@@ -27,6 +27,7 @@ async def load_cogs():
     await bot.load_extension("cogs.shop")
     await bot.load_extension("cogs.garage")
     await bot.load_extension("cogs.auction")
+    await bot.load_extension("cogs.help")
 
 
 async def main():

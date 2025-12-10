@@ -1,0 +1,94 @@
+GHITHUB LINK : 
+https://github.com/Miroo78/GarageBot
+
+Lien serveur discord : 
+https://discord.gg/FDJVtNm2
+
+
+--------------------------------------------Rapport de projet – Bot Discord Automobile-------------------------------------------------
+
+Présentation du projet
+
+Ce projet consiste en la création d’un bot Discord spécialisé dans
+l’univers automobile. Le bot propose différentes fonctionnalités
+interactives basées sur des commandes slash (/), notamment : - Une
+simulation d’achat/vente de voitures. - Un système d’enchères. - La
+gestion d’un garage virtuel pour chaque utilisateur. - Des informations
+techniques ou amusantes sur les véhicules. - Une expérience utilisateur
+claire et intuitive.
+
+Avancement étape par étape
+
+1. Analyse du besoin
+
+-   Comprendre les attentes du sujet : bot fonctionnel, stockage
+    persistant, modularité, POO, sécurité (.env), interface utilisateur
+    claire.
+-   Définir les fonctionnalités principales.
+
+2. Structure du projet
+
+-   Création d’un dossier avec une architecture propre :
+    -   main.py
+    -   cogs/ (modules)
+    -   data/garage.json
+    -   .env
+    -   README.md
+
+3. Mise en place des commandes slash
+
+-   Installation et configuration de discord.py compatible avec les
+    slash commands.
+-   Création des commandes :
+    -   /register : inscrit l’utilisateur.
+    -   /garage : affiche les voitures possédées.
+    -   /buy : acheter un véhicule fictif.
+    -   /sell : vendre une voiture.
+    -   /auction start : lancer une enchère.
+    -   /auction bid : participer à l’enchère.
+
+4. Programmation orientée objets
+
+-   Création de classes :
+    -   Car : représente un véhicule.
+    -   Garage : gère le garage d’un utilisateur.
+    -   Auction : gère les enchères.
+
+5. Stockage persistant
+
+-   Implémentation d’un fichier garage.json permettant de garder les
+    données même après redémarrage du bot.
+
+6. Sécurité
+
+-   Création du fichier .env contenant le token.
+-   Utilisation de la librairie dotenv.
+
+7. Modularité du code
+
+-   Décomposition en plusieurs fichiers (cogs).
+-   Respect du principe Single Responsibility.
+
+8. Interface utilisateur
+
+-   Messages Discord structurés, clairs et dynamiques (Embed).
+-   Réponses propres pour chaque commande.
+
+9. Versioning GitHub
+
+-   Création du dépôt.
+-   Commits réguliers avec messages explicites.
+
+10. Finalisation
+
+-   Test du bot sur un serveur Discord privé.
+-   Vérification des fonctionnalités, correction des bugs.
+-   Documentation complète.
+
+Conclusion
+
+Le projet respecte : - La modularité. - La POO. - Le stockage
+persistant. - La sécurité. - Une UI claire. - Et une architecture
+propre.
+Le bot fonctionne comme prévu et propose une expérience complète centrée
+sur l’automobile.

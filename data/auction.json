@@ -1,6 +1,6 @@
 {
-  "active": false,
-  "car_id": null,
-  "current_price": 0,
-  "max_price": 0
+    "active": true,
+    "car_id": "205_gti",
+    "current_price": 300,
+    "max_price": 638
 }

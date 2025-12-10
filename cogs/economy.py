@@ -39,7 +39,7 @@ class Economy(commands.Cog):
             await interaction.response.send_message("Utilise /start d’abord.")
             return
 
-        users[uid]["money"] += 500
+        users[uid]["money"] += 5000 #permet d'ajouter 500 crédits au solde de l'utilisateur
         self.save_users(users)
 
         await interaction.response.send_message("Tu as gagné 500 crédits aujourd'hui.")
